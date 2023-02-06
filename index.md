@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Rebeca Pastl
+# title: Rebeca Pastl
 ---
-
-[![GitHub Repo stars](https://img.shields.io/github/stars/nicolas-van/bootstrap-4-github-pages?style=social)](https://github.com/rebecapastl/rebecapastl.github.io/)
-
+<!-- 
+[![GitHub Repo stars](https://img.shields.io/github/stars/rebecapastl?style=social)](https://github.com/rebecapastl/)
+ -->
