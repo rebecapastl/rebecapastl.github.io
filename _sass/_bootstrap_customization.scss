@@ -1,6 +1,10 @@
 // Lux 5.1.0
 // Bootswatch
 
+// Colour
+$dark-primary: #222;
+$light-primary:#f5f5f5;
+$accent-primary:#44685d;
 
 // Variables
 
@@ -46,6 +50,38 @@ $web-font-path: "https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;6
 
 .nav-item {
   margin-right: 2rem;
+}
+
+// header
+.page-header {
+  padding: 10rem 0;
+  text-align: end;
+  background-image: url("../assets/img/banner.jpg");
+  background-size: cover;
+}
+
+.text-typing {
+  font-size:2.0rem;
+  font-family:monospace;
+}
+.text-typing p {
+  margin:0px;
+  white-space:nowrap;
+  overflow:hidden;
+  animation:typing 4s steps(20,end) forwards,
+            blink 1s infinite;
+}
+@keyframes typing {
+  0% { width:0% }
+  100% { width:100% }
+}
+@keyframes blink {
+  0%,100% {
+    border-right:2px solid transparent;
+  }
+  50% {
+    border-right:2px solid $dark-primary;
+  }
 }
 
 // Buttons
@@ -186,9 +222,6 @@ th {
 // Document
 
 .bg-off-white {
-  background-color: #f5f5f5 !important;
+  background-color: $light-primary !important;
 }
 
-.negative-margin {
-  margin-left: -600px;
-}
