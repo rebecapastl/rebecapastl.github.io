@@ -1,19 +1,35 @@
+Hello, my name is Rebeca and I've graduated in Sep/2022 in Computer Studies at Langara College.
 
-# Boostrap 4 Github Pages
+Take a look at my [github](https://github.com/rebecapastl) and see some of my repos.
 
-A [Bootstrap 4](https://getbootstrap.com/) template project for [Github Pages](https://pages.github.com/) and [Jekyll](https://jekyllrb.com/).
+<p>&nbsp;</p>
 
-* A full Bootstrap 4 theme usable both on Github Pages and with a standalone Jekyll.
-* Recompiles Bootstrap from SCSS files, which allows to customize Bootstrap's variables and use Bootstrap themes.
-* Full support of Bootstrap's JavaScript plugins.
-* Supports all features of Github Pages and Jekyll.
+# PROJECTS
 
-[See the website for demonstration and documentation](https://nicolas-van.github.io/bootstrap-4-github-pages/).
+Here are some of my projects.
 
-## Contribution
+<p>&nbsp;</p>
 
-[See the contribution guide.](./CONTRIBUTING.md)
+### MFLIX
+A classics movie database
+[![MFLIX](/assets/img/mflix.png)](https://mflix.cyclic.app/)
 
-## License
+<p>&nbsp;</p>
 
-[See the license file.](./LICENSE.md)
+### Palpite Box
+A site where customers can rate your small business
+[![Palpite Box - Opinion Box](/assets/img/palpite-box.png)](https://palpite-box-rebecapastl.vercel.app/)
+
+<p>&nbsp;</p>
+
+### Character Sheet
+Fill and print an information sheet about a fictional character.
+[![Character sheet](/assets/img/character-sheet.png)](https://character-sheet.cyclic.app/)
+
+<p>&nbsp;</p>
+
+# CONTACT
+
+<img src="/assets/img/github.svg"  width="2%" height="2%"> [https://github.com/rebecapastl](https://github.com/rebecapastl)\
+<img src="/assets/img/linkedin.svg"  width="2%" height="2%"> [https://www.linkedin.com/in/rebeca-pastl/](https://www.linkedin.com/in/rebeca-pastl/)\
+<img src="/assets/img/envelope-solid.svg"  width="2%" height="2%"> <a href="mailto:rebeca.pastl@hotmail.com">rebeca.pastl@hotmail.com</a>
