@@ -1,14 +1,11 @@
 ---
 layout: default
 ---
-<article>
 
-  <header>
-    <h1>{{ page.title | escape }}</h1>
-  </header>
-
-  <section>
-    {{ content }}
+{% for section in page.sections %}
+  <section class="{{ section.background_style }} page-padding" id="{{ section.section_id }}">
+      <h1>{{ section.title }}</h1>
+      <p>{{ section.text }}</p>
+      {% include {{ section.type }} section=section site=site page=page %}
   </section>
-
-</article>
+{% endfor %}

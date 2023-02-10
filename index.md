@@ -1,40 +1,53 @@
 ---
 layout: page
 title: Rebeca Pastl
+
+sections:
+  - type: welcome.html
+    section_id: welcome
+    background_style: bg-light-colour
+    title: Welcome
+    text: Hello, my name is Rebeca and I've graduated in Sep/2022 in Computer Studies at Langara College. Take a look at my <a href="https://github.com/rebecapastl"> github</a> and see some of my repos.
+    url: welcome.html
+  - type: project.html
+    section_id: projects
+    background_style: bg-dark-colour
+    title: Projects
+    text: Here are some of my projects.
+    url: project.html
+    project:
+      - name: MFLIX
+        text: A classic movies database
+        image: assets/img/mflix.png
+        url: 'https://mflix.cyclic.app/'
+        alt: mflix
+      - name: palpite Box
+        text: A site where customers can rate your small business
+        image: assets/img/palpite-box.png
+        url: 'https://palpite-box-rebecapastl.vercel.app/'
+        alt: palpite box opinion box
+      - name: Character Sheet
+        text: Fill and print an information sheet about a fictional character.
+        image: assets/img/character-sheet.png
+        url: 'https://character-sheet.cyclic.app/'
+        alt: character sheet
+  - type: contact.html
+    section_id: contact
+    background_style: bg-accent-light
+    text: Thanks for contacting!
+    title: Contact
+    url: contact.html
+    contact:
+      - text: https://github.com/rebecapastl
+        image: assets/img/github.svg
+        url: 'https://github.com/rebecapastl'
+        alt: github
+      - text: https://www.linkedin.com/in/rebeca-pastl/
+        image: assets/img/linkedin.svg
+        url: 'https://www.linkedin.com/in/rebeca-pastl/'
+        alt: linkedin
+      - text: rebeca.pastl@hotmail.com
+        image: assets/img/envelope-solid.svg
+        url: 'mailto:rebeca.pastl@hotmail.com'
+        alt: email
 ---
-
-Hello, my name is Rebeca and I've graduated in Sep/2022 in Computer Studies at Langara College.
-
-Take a look at my [github](https://github.com/rebecapastl) and see some of my repos.
-
-<p>&nbsp;</p>
-
-# PROJECTS
-
-Here are some of my projects.
-
-<p>&nbsp;</p>
-
-### MFLIX
-A classics movie database
-[![MFLIX](/assets/img/mflix.png)](https://mflix.cyclic.app/)
-
-<p>&nbsp;</p>
-
-### Palpite Box
-A site where customers can rate your small business
-[![Palpite Box - Opinion Box](/assets/img/palpite-box.png)](https://palpite-box-rebecapastl.vercel.app/)
-
-<p>&nbsp;</p>
-
-### Character Sheet
-Fill and print an information sheet about a fictional character.
-[![Character sheet](/assets/img/character-sheet.png)](https://character-sheet.cyclic.app/)
-
-<p>&nbsp;</p>
-
-# CONTACT
-
-<img src="/assets/img/github.svg"  width="2%" height="2%"> [https://github.com/rebecapastl](https://github.com/rebecapastl)\
-<img src="/assets/img/linkedin.svg"  width="2%" height="2%"> [https://www.linkedin.com/in/rebeca-pastl/](https://www.linkedin.com/in/rebeca-pastl/)\
-<img src="/assets/img/envelope-solid.svg"  width="2%" height="2%"> <a href="mailto:rebeca.pastl@hotmail.com">rebeca.pastl@hotmail.com</a>
