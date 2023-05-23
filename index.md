@@ -109,6 +109,21 @@ sections:
           - name: Excelize
             src: assets/img/excelize.png
             alt: excelize
+      - name: Course Tracker
+        text: Work in progress. Minimal and intuitive user interface that allows users to track college courses in a simple way.
+        image: assets/img/coming-soon.png
+        url: ''
+        alt: course tracker
+        icon: 
+          - name: Python
+            src: assets/img/python.png
+            alt: python
+          - name: Tkinter
+            src: assets/img/tkinter.png
+            alt: tkinter
+          - name: Pytest
+            src: assets/img/pytest.png
+            alt: pytest
       - name: Home Search
         text: Work in progress. A kanban board style app to help the house-hunters manage all the properties they have to consider.
         image: assets/img/coming-soon.png
